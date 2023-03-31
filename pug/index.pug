@@ -1,0 +1,133 @@
+extends layout
+
+block banner
+  section(class="wrapper")
+    div(class="banner")
+      div(class="banner__title")
+        h1 Just <em>Eat healthy</em> food to live a healthier life
+        p Enjoy a healthy life by eating healthy foods that have extraordinary flavors that make your life healthier for today and in the future
+      div(class="backg-photo")
+      button(class="button__banner") Order Now
+block whyus
+  section(class="wrapper")
+    div(class="whyus__block")
+      div(class="whyus__block-title")
+        h2 Why Choose US?
+        p Organic food is grown without the use of synthetic chemicals
+      div(class="blocks")
+        div(class="block__advantages")
+          img(src="./images/icon_table.svg" alt="img_table", width="100", height="100")
+          h3 Easy to order 
+          p foods include fresh produce, meats as well as processed
+        div(class="block__advantages")
+          img(src="./images/icon_maps.svg", alt="icon_maps" width="100", height="100")
+          h3 Live Order
+          p Place your online Order easily and get the food instantly
+        div(class="block__advantages")
+          img(src="./images/icon_leaf.svg", alt="icon_leaf" width="128" height="100")
+          h3 100% Organic
+          pOrganic food is grown without the use of synthetic chemicals
+      div(class="black__digital-advantages")
+        div 
+          h4 40+
+          p Food Partners
+        div
+          h4  459+
+          p Trusted Clients
+        div
+          h4 12k+
+          p Order Online
+block about-US
+  section(class="wrapper")
+    div(class="block__about-US")
+      div(class="about__US-description")
+        h2 About US
+        p Organic food is grown without the use of synthetic chemicals, such as human-made pesticides and fertilizers, and does not contain genetically modified organisms (GMOs). Organic foods include fresh produce, meats, and dairy products as well as processed foods such as crackers, drinks, and frozen meals.
+        button.button
+          a Learn More
+      div(class="about__US-photo")
+        div(class="photo__first-two ")
+          div
+            img(src="./images/Image_aboutUS_1.webp")
+          div
+            img(src="./images/Image_aboutUS_2.webp")
+        div(class="photo__third")
+          img(src="./images/Image_aboutUS_3.webp")
+block fresh__vegetables
+  .wrapper
+    .blocks__fresh
+      .block__fresh-description
+        h2 Fresh Vegetables Every Day
+        p Healthy life as informed declared we enjoy the margaret. Joy horrible moreover man feelings own shy. Request norland neither mistake for yet. Between the for morning assured country believe.
+        button.button
+          a Learn More
+      .block__fresh-img
+        img(src="./images/fresh_images.webp")
+block best__chefs
+  .wrapper
+    .bloks__best-chefs
+      .block__chefs-description
+        h2 Cooked by the Best Chefs
+        p Believing neglected so so allowance existence departure in. In design active temper be uneasy. Thirty for remove plenty regard you summer though. He preference connection astonished on of ye.
+        .block__chefs-span
+          span A guaranteed delicious meal
+          span Food is guaranteed hygienic
+          span Cooked quicklyl
+      .block__chefs-img
+        span
+        img(src="./images/Image_cook.webp")
+block dishes
+  .wrapper
+    .block__dishes
+      .block__dishes-description
+        h2 Special Dishes for you
+        p Made with premium & 100% Organic ingredients
+      .block__card-dishes
+        .card__dishes
+          .card__dishes-content
+            img(src="./images/image_greenSalat.png", alt="")
+            h4 Green Salad
+            p A salad combined witha delicious cut of bacon and mixed with tasty and fresh sesome oil.
+        .card__dishes
+          .card__dishes-content
+            img(src="./images/image-beefSalat.png", alt="")
+            h4 Beef Salad
+            p A salad combined witha delicious cut of bacon and mixed with tasty and fresh sesome oil.
+        .card__dishes
+          .card__dishes-content
+            img(src="./images/image-nutSalat.png", alt="")
+            h4 Nut Salad
+            p A salad combined witha delicious cut of bacon and mixed with tasty and fresh sesome oil.
+      button(class="button__dishes")
+        a View All
+block clients
+  .block__clients-background
+    .wrapper
+      .block__clients
+        h2 Happy Clients Says
+        .card__client
+          .block_client-review
+            .header__name
+              img(src="./images/avatar-nazar.png", alt="")
+              .name
+                h4 KHALIL NAZIR
+                p CEO of UI.Desk
+            p Thirty for remove plenty regard you summer though. He preference Partiality on or continuing in particular principles as. Do believing oh disposing to supported allowance we.
+          .block_client-review
+            .header__name
+              img(src="./images/avatar-zeeshan.png", alt="")
+              .name
+                h4 ZEESHAN ANWER
+                p CEO of UI Box
+            p Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly.
+block subscribe
+  .wrapper
+    .block__subscribe
+      h2 Subscribe to the Newsletter
+      p Enter your email below to get our daily offers and news
+      .block__input 
+        form(action="https://fom.in.ua/echo")
+          label(for="")
+            input(type="text" name="Enter your email." placeholder="Enter your email.")
+          button(type="submit")
+            a.button(href="#") Get Starteds

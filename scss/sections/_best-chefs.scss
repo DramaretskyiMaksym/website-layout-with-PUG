@@ -1,0 +1,92 @@
+.bloks__best-chefs{
+  display: flex;
+  padding-bottom: 178px;
+}
+
+.block__chefs-description{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  h2 {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 68px;
+    color: #151414;
+    max-width: 404px;
+  }
+  p{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 34px;
+    color: #181D19;
+  }
+}
+
+.block__chefs-span {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 38px;
+  span {
+    display: flex;
+    position: relative;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #181D19;
+    &::before{
+      position: absolute;
+      content: "";
+      display: flex;
+      background-image: url("../../images/icon_arrow.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 20px;
+      height: 20px;
+      left: -38px;
+      border-radius: 3px;
+      background-color: #6EBF4B;
+    }
+  }
+}
+
+.block__chefs-img {
+  display: flex;
+  position: relative;
+  span::before{
+      position: absolute;
+      content: "";
+      left: 34px;
+      z-index: -1;
+      top: 259px;
+      width: 192px;
+      height: 134px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("../../images/image_leaf-two.png");
+  }
+  &::before{
+    position: absolute;
+    content: "";
+    z-index: -1;
+    width: 480px;
+    height: 480px;
+    top: 106px;
+    left: 170px;
+    border-radius: 50%;
+    background-color:#E1F2E1;
+  }
+  &::after {
+      position: absolute;
+      content: "";
+      left: 500px;
+      top: 472px;
+      width: 192px;
+      height: 134px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("../../images/image_leaf_chef.png");
+    }
+}

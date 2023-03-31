@@ -1,0 +1,93 @@
+.block__clients-background {
+  background-color: #FCFCFC;
+}
+
+.block__clients {
+  padding: 70px 130px 146px;
+  h2 {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 68px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 48px;
+  }
+}
+
+.card__client{
+  display: flex;
+  gap: 25px;
+  position: relative;
+  &::before {
+    position: absolute;
+    content: "";
+    top: 429px;
+    left: 504px;
+    width: 37px;
+    height: 24px;
+    background-image: url("../../images/arrow-left.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  &::after {
+    position: absolute;
+    content: "";
+    top: 429px;
+    left: 570px;
+    width: 55px;
+    height: 24px;
+    background-image: url("../../images/arrow-right.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+.block_client-review {
+  padding: 62px 52px;
+  background-color: #FFFFFF;
+  p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #181D19;
+  }
+}
+
+.header__name{
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+  position: relative;
+  img {
+    margin-right: 36px;
+  }
+  &::after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    left: 362px;
+    width: 68px;
+    height: 50px;
+    background-image: url("../../images/quotes.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+.name {
+  h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #333333;
+  }
+  p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #888A9A;
+  }
+}
