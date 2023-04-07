@@ -762,7 +762,7 @@ button {
   position: absolute;
   content: "";
   display: flex;
-  background-image: url("../../images/icon_arrow.svg");
+  background-image: url("../images/icon_arrow.svg");
   background-position: center;
   background-repeat: no-repeat;
   width: 20px;
@@ -787,7 +787,7 @@ button {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../../images/image_leaf-two.png");
+  background-image: url("../images/image_leaf-two.png");
 }
 .block__chefs-img::before {
   position: absolute;
@@ -810,7 +810,7 @@ button {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../../images/image_leaf_chef.png");
+  background-image: url("../images/image_leaf_chef.png");
 }
 
 .block__dishes {
