@@ -38,7 +38,7 @@
       position: absolute;
       content: "";
       display: flex;
-      background-image: url("../../images/icon_arrow.svg");
+      background-image: url("../images/icon_arrow.svg");
       background-position: center;
       background-repeat: no-repeat;
       width: 20px;
@@ -64,7 +64,7 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      background-image: url("../../images/image_leaf-two.png");
+      background-image: url("../images/image_leaf-two.png");
   }
   &::before{
     position: absolute;
@@ -87,6 +87,6 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      background-image: url("../../images/image_leaf_chef.png");
+      background-image: url("../images/image_leaf_chef.png");
     }
 }
